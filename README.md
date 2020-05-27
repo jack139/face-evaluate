@@ -6,17 +6,28 @@
 1. face-recognition https://github.com/ageitgey/face_recognition
 2. vggface https://github.com/rcmalli/keras-vggface
 3. face.evoLVe https://github.com/ZhaoJ9014/face.evoLVe.PyTorch
+4. 双模型并行识别（sennet50 + IR152）
+5. 合并特征值（sennet50 + IR152）
 
 #### 训练
 
 `python3 src/train.py <algorithm> <train_data_dir> [model_name]`
 
+> \<algorithm\> 参数：rec, vgg, evo, plus
+
 #### 识别
+
 `python3 src/predict.py <algorithm> <model_name> <test dir or file>`
 
 #### 评估
 
+单模型
+
 `python3 src/evaluate.py <algorithm> <model_name> <test dir>`
+
+双模型并行
+
+`python3 src/evaluate2.py <test dir>`
 
 1. 数据来源：
 

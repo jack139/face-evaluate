@@ -39,6 +39,8 @@
 
    从两个人脸库中各选50个人，每人取20张可定位到人脸的照片，10张用于训练，10张用于识别测试。
 
+   > 下载数据集：https://github.com/jack139/face-evaluate/releases/download/image-data/image-data.tar.gz
+
 3. 结果讨论：
 
    | 算法模型 （数据集）               | 最佳分数结果准确率 | 非最佳分数结果准确率 |

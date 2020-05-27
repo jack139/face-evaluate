@@ -1,0 +1,6 @@
+face-recognition
+Keras
+tensorflow
+sklearn
+Pillow
+opencv-python

@@ -6,8 +6,8 @@
 1. face-recognition https://github.com/ageitgey/face_recognition
 2. vggface https://github.com/rcmalli/keras-vggface
 3. face.evoLVe https://github.com/ZhaoJ9014/face.evoLVe.PyTorch
-4. 双模型并行识别（sennet50 + IR152）
-5. 合并特征值（sennet50 + IR152）
+4. 双模型并行识别（senet50 + IR152）
+5. 合并特征值（senet50 + IR152）
 
 #### 训练
 
